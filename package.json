@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npm run build-dev && npm run start",
-    "build": "npm run -s migrate && npm run -s generate && tsc",
+    "build": "npm run -s generate && tsc",
     "build-dev": "tsc",
     "start": "node dist/index.js",
     "clean": "rm -rf dist",
